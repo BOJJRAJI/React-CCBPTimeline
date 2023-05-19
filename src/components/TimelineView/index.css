@@ -1,0 +1,31 @@
+.time-line-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.journey-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
+.ccbp-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+}
+.time-line-chrono-container {
+  width: 100%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .time-line-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
